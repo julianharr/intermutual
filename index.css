@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@700&display=swap");
+.container-main {
+  display: flex; }
+  .container-main h1, .container-main h2, .container-main h3 {
+    font-family: Rubik, sans-serif; }
+  .container-main h3 {
+    font-size: 24px; }
+  .container-main p, .container-main a {
+    font-family: Karla, sans-serif; }
+  .container-main .sidebar {
+    margin: 32px 16px; }
+  .container-main .sidebar-nav {
+    position: sticky;
+    top: 50px; }
+    .container-main .sidebar-nav h5 {
+      margin: -8px 0 0 16px;
+      border-bottom: 2px solid;
+      padding-bottom: 16px;
+      width: 75%; }
+  .container-main #title {
+    margin-left: 16px; }
+  .container-main .sidebar-nav-links {
+    margin: 16px;
+    display: flex;
+    flex-direction: column; }
+  .container-main .sidebar-link {
+    color: #212528;
+    margin: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: sans-serif; }
+    .container-main .sidebar-link:hover {
+      color: #ff5400;
+      text-decoration: underline; }
+  .container-main .container-content {
+    margin: 60px 32px; }
+  .container-main .subtitle {
+    margin: 36px 36px 50px 36px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 16px;
+    display: inline-block; }
+  .container-main #blog-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+  .container-main .content {
+    margin: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px; }
+  .container-main .content-text {
+    margin-top: 4px;
+    padding: 16px; }
+    .container-main .content-text p {
+      font-size: 16px; }
+    .container-main .content-text a {
+      color: #212528;
+      font-weight: 700;
+      font-family: Rubik, sans-serif;
+      text-decoration: none; }
+      .container-main .content-text a:hover {
+        color: #ff5400;
+        text-decoration: underline; }
+  .container-main .card {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 0.4s; }
+  .container-main .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px; }
+  .container-main .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover; }
+  .container-main .card:hover {
+    transform: scale(0.95, 0.95);
+    box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.25), -5px -5px 50px 5px rgba(0, 0, 0, 0.22); }
+
+/*# sourceMappingURL=index.css.map */

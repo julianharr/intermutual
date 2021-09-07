@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@700&display=swap');
+
+.container-main {
+  display: flex;
+  
+  h1, h2, h3 {
+    font-family: Rubik, sans-serif;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  p, a {
+    font-family: Karla, sans-serif;
+  }
+  
+  
+  .sidebar {
+    margin: 32px 16px;
+  }
+  
+  .sidebar-nav {
+    position: sticky;
+    top: 50px;
+    
+    h5 {
+      margin: -8px 0 0 16px;
+      border-bottom: 2px solid;
+      padding-bottom: 16px;
+      width: 75%;
+    }
+  }
+  
+  #title {
+    margin-left: 16px;
+  }
+  
+  .sidebar-nav-links {
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-link {
+    color: #212528;
+    margin: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: sans-serif;
+    
+    &:hover {
+      color: #ff5400;
+      text-decoration: underline; 
+    }
+  }
+  
+  .container-content {
+    margin: 60px 32px;
+  }
+  
+  .subtitle {
+    margin: 36px 36px 50px 36px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 16px;
+    display: inline-block;
+  }
+  
+  #blog-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .content {
+    margin: 16px 32px;
+    display: flex;
+    flex-direction: column; 
+    max-width: 200px;
+  }
+  
+  .content-text {
+    margin-top: 4px;
+    padding: 16px;
+    p {
+      font-size: 16px;
+    }
+    
+    a {
+      color: #212528;
+      font-weight: 700;
+      font-family: Rubik, sans-serif;
+      text-decoration: none;
+        &:hover {
+          color: #ff5400;
+          text-decoration: underline;
+        }
+    }
+  }
+
+  .card {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+
+  .card:hover {
+    transform: scale(0.95, 0.95);
+    box-shadow: 5px 5px 50px 5px rgba(0,0,0,0.25), 
+-5px -5px 50px 5px rgba(0,0,0,0.22);
+  }
+}
